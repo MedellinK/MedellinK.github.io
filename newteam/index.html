@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <script src="/imajes/practice.js" defer></script>
+            <title>Treasure Hunt Game</title>
+
+            <link rel="stylesheet" href="styles.css">
+
+        </head>
+        
+        <body>
+            <h1>Treasure Hunt Game</h1>
+            <h2>Forbidden Island</h2>
+            
+            <hr>
+            <header>
+                
+            </header>
+
+            <!--RULES-->
+            <h3>Rules:</h3>
+            <ul>
+            <li>Click the boxes to reveal what's on the map</li>
+            <li>If you click on the bomb, you lose</li>
+            <li>If you click on the treasure, you win</li>
+            </ul> <br><br>
+
+            <!--TABLE-->
+            <div id="game-board">
+            <table border = 2>
+                <tr>
+                    <td id=0
+                     onclick="treasure(0)">
+                     <button>?</button>
+                    </td>
+                    <td id = 1 onclick="treasure(1)">
+                        <button>?</button>
+                    </td>
+                    <td id = 2 onclick="treasure(2)">
+                        <button>?</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td id = 3 onclick="treasure(3)">
+                        <button>?</button></td>
+                    <td id = 4 onclick="treasure(4)">
+                        <button>?</button>
+                    </td>
+                    <td id = 5 onclick="treasure(5)">
+                        <button>?</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td id = 6 onclick="treasure(6)">
+                        <button>?</button>
+                    </td>
+                    <td id = 7 onclick="treasure(7)">
+                        <button>?</button>
+                    </td>
+                    <td id = 8 onclick="treasure(8)">
+                        <button>?</button>
+                    </td>
+                </tr>
+            </table><br><br>
+            </div>
+            <br>
+            <div>
+                <button type="button" onclick=location.reload()>Restart Game</button>
+            </div>
+            <!--FOOTER-->
+            <br>
+            <hr>
+            <br>
+            <footer>
+                Copyright &copy; Olena & Jeremy | Jump start July 2022 |  <a href="#top"> Back to top</a><br>
+            </footer>
+            <br><br>
+          <!--SCRIPT-->
+          <script type = "text/javascript" src="treasure.js"></script>  
+        </body>
+        </html>
